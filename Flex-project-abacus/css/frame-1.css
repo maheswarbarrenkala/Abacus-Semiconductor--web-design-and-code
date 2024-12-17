@@ -1,0 +1,21 @@
+/* screen - frame-1 */
+
+.frame-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  gap: 107px;
+  height: 390px;
+  padding: 13px 17px;
+  width: 697px;
+}
+
+.frame-1 .group-9 {
+  background-image: url(../img/group-6@2x.png);
+  background-size: 100% 100%;
+}
+
+.frame-1 .group {
+  height: 184px;
+  width: 261px;
+}

@@ -1,0 +1,58 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Cabin:400");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/67227c37a99c8811bfba1bcc.67227c38a99c8811bfba1bcf.0KPcZPI.hcp.png");
+
+@font-face {
+  font-family: "Californian FB-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/californian-fb.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Calisto MT-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Calisto MT.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Californian FB-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/californian-fb.ttf") format("truetype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
